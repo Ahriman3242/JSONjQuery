@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог одежды и обуви</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <h1>Наш каталог</h1>
+  
+  <button id="loadCategoriesBtn">Загрузить категории</button>
+
+  <ul id="categoryList"></ul>
+
+  <h2>Добавить новую категорию (локально)</h2>
+  <form id="addCategoryForm">
+    <input type="text" name="name" placeholder="Название категории" required>
+    <input type="text" name="description" placeholder="Описание категории">
+    <button type="submit">Добавить</button>
+  </form>
+  
+</body>
+</html>
